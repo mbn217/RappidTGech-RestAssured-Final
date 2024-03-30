@@ -7,7 +7,7 @@ import static io.restassured.RestAssured.given;
 
 public class DeleteExample {
     @Test
-    public void putExample(){
+    public void deleteExample(){
         //Delete Request
         baseURI = "https://reqres.in";
         given()
